@@ -41,7 +41,7 @@ Before you start, ensure you have the following installed on your local machine:
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='[https://user-images.githubusercontent.com/105128267/218077675-f50ac9ae-8d2c-4196-aed8-f4490e142960.png](https://drive.google.com/file/d/12wXiECbHghZnPQ6AG1NoABfLEUKxon_u/view?usp=sharing)'/>
+<img src='https://github.com/RohanS15/BookStore/blob/main/Screenshot.png'/>
 
 </div>
 
