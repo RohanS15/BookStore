@@ -1,0 +1,24 @@
+.bookshelf-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .bookshelf-page h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .bookshelf-page .book-list {
+    width: 100%;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 600px) {
+    .bookshelf-page {
+      padding: 40px;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.book-list .book-card {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+  .book-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .book-list .book-card {
+    margin: 16px;
+    width: calc(50% - 32px);
+  }
+}
