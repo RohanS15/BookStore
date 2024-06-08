@@ -92,37 +92,43 @@ Follow these steps to set up the project locally:
 
     You should see the application running.
 
-## Project Structure
 book-search-app
-├── public # Public assets
-│ ├── index.html # Main HTML file
-│ └── ... # Other static assets
-├── src # Source files
-│ ├── assets # Static assets
-│ │ └── ... # Images, styles, etc.
-│ ├── components # Reusable components
-│ │ ├── BookCard.js # BookCard component
-│ │ ├── BookCard.css # CSS for BookCard
-│ │ ├── SearchInput.js# SearchInput component
-│ │ ├── SearchInput.css # CSS for SearchInput
-│ │ ├── BookList.js # BookList component
-│ │ ├── BookList.css # CSS for BookList
-│ │ ├── Header.js # Header component
-│ │ ├── Header.css # CSS for Header
-│ │ ├── Button.js # Button component
-│ │ ├── Button.css # CSS for Button
-│ ├── pages # Page components
-│ │ ├── BookSearchPage.js # BookSearchPage component
-│ │ ├── BookSearchPage.css # CSS for BookSearchPage
-│ │ ├── BookshelfPage.js # BookshelfPage component
-│ │ ├── BookshelfPage.css # CSS for BookshelfPage
-│ ├── styles # Global and app-wide styles
-│ │ ├── index.css # Global styles
-│ │ ├── App.css # CSS for App component
-│ ├── App.js # Main app component
-│ ├── App.css # CSS for App component
-│ └── index.js # Entry point
-└── README.md # Project readme file
+│
+├── public                    # Public assets
+│   ├── index.html            # Main HTML file
+│   └── ...                   # Other static assets
+│
+├── src                       # Source files
+│   │
+│   ├── assets                # Static assets
+│   │   └── ...               # Images, styles, etc.
+│   │
+│   ├── components            # Reusable components
+│   │   ├── BookCard.js       # BookCard component
+│   │   ├── SearchInput.js    # SearchInput component
+│   │   ├── BookList.js       # BookList component
+│   │   ├── Header.js         # Header component
+│   │   └── Button.js         # Button component
+│   │
+│   ├── pages                 # Page components
+│   │   ├── BookSearchPage.js # BookSearchPage component
+│   │   └── BookshelfPage.js  # BookshelfPage component
+│   │
+│   ├── styles                # Global and app-wide styles
+│   │   ├── index.css         # Global styles
+│   │   ├── App.css           # CSS for App component
+│   │   ├── BookCard.css      # CSS for BookCard
+│   │   ├── SearchInput.css   # CSS for SearchInput
+│   │   ├── BookList.css      # CSS for BookList
+│   │   ├── Header.css        # CSS for Header
+│   │   └── Button.css        # CSS for Button
+│   │
+│   ├── App.js                # Main app component
+│   ├── index.js              # Entry point
+│   └── README.md             # Project readme file
+│
+└── README.md                 # Project readme file
+
 ## Technologies Used
 
 - **React**: Front-end JavaScript library for building user interfaces.
