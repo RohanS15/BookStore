@@ -9,7 +9,6 @@ This is a React application that allows users to search for books using the Open
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 
 
@@ -91,43 +90,6 @@ Follow these steps to set up the project locally:
     ```
 
     You should see the application running.
-
-book-search-app
-│
-├── public                    # Public assets
-│   ├── index.html            # Main HTML file
-│   └── ...                   # Other static assets
-│
-├── src                       # Source files
-│   │
-│   ├── assets                # Static assets
-│   │   └── ...               # Images, styles, etc.
-│   │
-│   ├── components            # Reusable components
-│   │   ├── BookCard.js       # BookCard component
-│   │   ├── SearchInput.js    # SearchInput component
-│   │   ├── BookList.js       # BookList component
-│   │   ├── Header.js         # Header component
-│   │   └── Button.js         # Button component
-│   │
-│   ├── pages                 # Page components
-│   │   ├── BookSearchPage.js # BookSearchPage component
-│   │   └── BookshelfPage.js  # BookshelfPage component
-│   │
-│   ├── styles                # Global and app-wide styles
-│   │   ├── index.css         # Global styles
-│   │   ├── App.css           # CSS for App component
-│   │   ├── BookCard.css      # CSS for BookCard
-│   │   ├── SearchInput.css   # CSS for SearchInput
-│   │   ├── BookList.css      # CSS for BookList
-│   │   ├── Header.css        # CSS for Header
-│   │   └── Button.css        # CSS for Button
-│   │
-│   ├── App.js                # Main app component
-│   ├── index.js              # Entry point
-│   └── README.md             # Project readme file
-│
-└── README.md                 # Project readme file
 
 ## Technologies Used
 
