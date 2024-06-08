@@ -11,7 +11,7 @@ This is a React application that allows users to search for books using the Open
 - [Running the Application](#running-the-application)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [License](#license)
+
 
 ## About
 
@@ -93,4 +93,40 @@ Follow these steps to set up the project locally:
     You should see the application running.
 
 ## Project Structure
+book-search-app
+├── public # Public assets
+│ ├── index.html # Main HTML file
+│ └── ... # Other static assets
+├── src # Source files
+│ ├── assets # Static assets
+│ │ └── ... # Images, styles, etc.
+│ ├── components # Reusable components
+│ │ ├── BookCard.js # BookCard component
+│ │ ├── BookCard.css # CSS for BookCard
+│ │ ├── SearchInput.js# SearchInput component
+│ │ ├── SearchInput.css # CSS for SearchInput
+│ │ ├── BookList.js # BookList component
+│ │ ├── BookList.css # CSS for BookList
+│ │ ├── Header.js # Header component
+│ │ ├── Header.css # CSS for Header
+│ │ ├── Button.js # Button component
+│ │ ├── Button.css # CSS for Button
+│ ├── pages # Page components
+│ │ ├── BookSearchPage.js # BookSearchPage component
+│ │ ├── BookSearchPage.css # CSS for BookSearchPage
+│ │ ├── BookshelfPage.js # BookshelfPage component
+│ │ ├── BookshelfPage.css # CSS for BookshelfPage
+│ ├── styles # Global and app-wide styles
+│ │ ├── index.css # Global styles
+│ │ ├── App.css # CSS for App component
+│ ├── App.js # Main app component
+│ ├── App.css # CSS for App component
+│ └── index.js # Entry point
+└── README.md # Project readme file
+## Technologies Used
+
+- **React**: Front-end JavaScript library for building user interfaces.
+- **Open Library API**: API for fetching book data.
+- **localStorage**: Web Storage API for persisting data in the browser.
+- **CSS**: Styling of components with media queries for responsiveness.
 
